@@ -1,0 +1,89 @@
+/* color variable */
+
+:root{
+    --red:#f42625;
+    --white:#ffffff;
+    --black:#000000;
+}
+
+/* navbar styling */
+#navbar-items{
+    gap: 30px;
+}
+#navbar{
+    padding: 0px 10px;
+}
+
+#main-logo{
+    width: 165px;
+}
+.nav-link{
+    text-decoration: none;
+}
+#franchise{
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 15px 20px;
+    cursor: pointer;
+}
+#order-online{
+    background-color: var(--red);
+    border: 0px;
+    padding: 15px 20px;
+    cursor: pointer;
+}
+.red{
+    color: var(--red);
+}
+#btn-icon{
+    padding: 5px 7px; 
+}
+
+#children-images{
+    gap: 30px;
+}
+.direction-button{
+    background-color:transparent;
+    border: 1px solid gray;
+    padding: 15px 20px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+#black{
+    color: var(--black);
+}
+.margin-left{
+    margin-left: 30px;
+}
+.margin-right{
+    margin-right: 30px;
+}
+.green{
+    color: #28a745;
+}
+.text-small{
+    font-size: 12px;
+}
+.width{
+    width: 400px;
+}
+.black-font{
+    color: var(--black);
+}
+.round-border{
+    border-radius: 10px;
+}
+.text-margin{
+    margin-left: 10px;
+}
+.no-decoration{
+    text-decoration: none;
+}
+.icons{
+    width: 25px;
+    
+}
+.bg-red{
+    background-color: var(--red);
+}
+
