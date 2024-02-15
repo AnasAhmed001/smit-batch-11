@@ -95,7 +95,8 @@
 }
 
 .align-left{
-    align-items: end;
+    display: flex;
+    justify-content: end;
 }
     
     
