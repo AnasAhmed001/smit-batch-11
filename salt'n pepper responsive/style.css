@@ -20,6 +20,9 @@
 .nav-link{
     text-decoration: none;
 }
+.main-image{
+    width: 100%;
+}
 #franchise{
     background-color: transparent;
     border: 1px solid white;
@@ -40,8 +43,8 @@
 }
 
 #children-images{
-    gap: 30px;
-    padding: 20px;
+    gap: 40px;
+    padding: 50px;
 }
 .direction-button{
     background-color:transparent;
@@ -88,8 +91,8 @@
     background-color: var(--red);
 }
 
-@media(max-width:700px){
-    #links{
+@media(min-width:700px){
+    #sandwitch{
         display: none;
     }
 }
